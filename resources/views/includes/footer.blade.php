@@ -1,5 +1,5 @@
 <footer>
-<div id="app">
+    <div id="app">
 
-</div>
+    </div>
 </footer>
