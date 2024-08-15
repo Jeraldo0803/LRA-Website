@@ -1,8 +1,6 @@
 <header>
     <div id="app">
-        <div class="container">
 
-        </div>
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
 
             <div class="container">
@@ -33,7 +31,7 @@
                         <form class="form-inline">
                                 @csrf
                               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                              <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
                             </form>
                     </ul>
                 </div>
@@ -44,7 +42,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
 
 
-            <div class="container">
+            <div class="container collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
