@@ -8,17 +8,18 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Gifted Ideas') }}</title>
+    <title>{{ config('app.name', 'LRA') }}</title>
         <!-- Fonts -->
         <link rel="dns-prefetch" href="//fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source Sans Pro" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/app.css">
 
         <!-- Scripts -->
         @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 
 <body>
-    @include('includes.header')
+    @include('includes.header1')
 
     <main class="py-4">
         @yield('content')

@@ -6,3 +6,11 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+.custom-btn {
+    background-color: #3ABEF9;
+  }
+
+.custom-btn:hover {
+    background-color: #3572EF;
+  }
